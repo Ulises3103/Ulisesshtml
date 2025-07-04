@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Realidad Virtual</title>
+  <link rel="stylesheet" href="css/estilo.css">
+ <style>
+	/* Menú horizontal dentro del header */
+.menu.horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.menu.horizontal > li {
+    position: relative;
+    background-color: #00796b;
+    border-radius: 8px;
+}
+
+.menu.horizontal > li > a {
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.menu.horizontal li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #004d40;
+    border-radius: 8px;
+    width: 180px;
+    padding: 0;
+    list-style: none;
+}
+
+.menu.horizontal li:hover > ul {
+    display: block;
+}
+
+.menu.horizontal li ul li a {
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.menu.horizontal li ul li ul {
+    left: 100%;
+    top: 0;
+}
+.ventajas-desventajas {
+      display: flex;
+      justify-content: space-around;
+      gap: 2em;
+      margin-top: 2em;
+    }
+    .ventaja, .desventaja {
+      flex: 1;
+      padding: 1em;
+      border-radius: 10px;
+    }
+    .ventaja {
+      background-color: #d4edda;
+    }
+    .desventaja {
+      background-color: #f8d7da;
+ }
+#id_7{
+	width: 300px;
+	height: 570px;
+	backgroup-color: #e2e2e2;
+	border: #000;
+	border-style: solid;
+	border-width: 2;
+	border-radius: 10px;
+	float: left;
+	padding: 15px 30px;
+	overflow: scroll;
+}
+#id_6{
+	width: 400px;
+	height: 200px;
+	backgroup-color: #e2e2e2;
+	border: #000;
+	border-style: solid;
+	border-width: 2;
+	border-radius: 10px;
+	float: left;
+	padding: 15px 30px;
+	overflow: scroll;
+}
+.cuadro {
+      background-color: #f5f5f5;
+      padding: 20px;
+      margin: 30px auto;
+      border-radius: 10px;
+      max-width: 1000px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      color: #333;
+    }
+    .ventajas-desventajas {
+      display: flex;
+      justify-content: space-around;
+      gap: 2em;
+      margin-top: 2em;
+    }
+    .ventaja, .desventaja {
+      flex: 1;
+      padding: 1em;
+      border-radius: 10px;
+    }
+    .ventaja {
+      background-color: #00FFFF;
+    }
+    .desventaja {
+      background-color: #008080;
+    }
+
+</style>
+</head>
+<body>
+<header>
+    <center><h1>Realidad Virtual</h1>
+<nav> 
+<ul class="menu horizontal">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="ia.html">IA</a></li>
+        <li><a href="Realidad Virtual.html">Realidad Virtual</a></li>
+        <li><a href="robótica.html">Robótica</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>  
+</nav>
+</header>
+
+<main>
+<section id="id_7">
+   <center><h2>¿Qué es la Realidad Virtual?</h2>
+    <p>La Realidad Virtual (RV) es un entorno de escenas y objetos de apariencia real —generado mediante tecnología informática— que crea en el usuario la sensación de estar inmerso en él. Dicho entorno se contempla a través de un dispositivo conocido como gafas o casco de Realidad Virtual. Gracias a la RV podemos sumergirnos en videojuegos como si fuéramos los propios personajes, aprender a operar un corazón o mejorar la calidad de un entrenamiento deportivo para obtener el máximo rendimiento.
+Esto, que puede parecer extremadamente futurista, no tiene un origen tan reciente como podríamos pensar. De hecho, muchos consideran que uno de los primeros dispositivos de Realidad Virtual fue la denominada Sensorama, una máquina con asiento incorporado que reproducía películas en 3D, emanaba olores y generaba vibraciones para hacer la experiencia lo más vívida posible. El invento se remonta nada más y nada menos que a mediados de los años 50. A partir de ahí, el desarrollo tecnológico y de software en los años siguientes trajo consigo las evoluciones pertinentes tanto en dispositivos como en el diseño de interfaces.</p>
+</section>   
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/kDfwyHAyFxM?si=q5RZXnpMFt7sukBN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <div class="ventajas-desventajas">
+    <div class="ventaja">
+      <h3>Ventajas</h3>
+      <ul>
+        <li>Aprendizaje inmersivo</li>
+        <li>Entrenamiento sin riesgo</li>
+        <li>Simulaciones realistas</li>
+      </ul>
+    </div>
+    <div class="desventaja">
+      <h3>Desventajas</h3>
+      <ul>
+        <li>Equipamiento costoso</li>
+        <li>Poca accesibilidad en zonas rurales</li>
+        <li>Puede causar mareos</li>
+      </ul>
+    </div>
+  </div>
+
+</main>
+
+
+
+
+<aside>
+</aside>
+
+
+<footer>
+   
+</footer>
+</body>
+</html>
